@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 13, 2016, 7:19:51 PM
+    Author     : Jelo4kul
+*/
+.root{
+    -fx-opacity: 0.9;
+}
+
+#topPanel{
+    -fx-background-color: rgb(56, 52, 49);
+    -fx-padding: 50px 20px 10px 100px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 10, 0.2, 0.0, 0.0); 
+}
+
+#pane{
+    -fx-background-color: rgb(56, 52, 49);
+    -fx-padding: 0px 0px 7px 0px;
+
+}
+#centerPanel{
+    -fx-background-color: rgb(77, 73, 72);
+}
+
+.baseBackground{
+    -fx-background-color: rgb(56, 52, 49);  
+}
+
+.button{
+    -fx-background-color: rgb(132, 194, 37);
+    -fx-border-radius: 1px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.lbl{
+    -fx-font-size: 17px;
+    -fx-fill:white;
+    -fx-font-family: "Clarendon BT";
+}
+
+#lblcontent{
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-font-family: "Clarendon BT";
+}
+
+#operationArea{
+    -fx-background-color: rgb(222,222,221);
+}
+.operations{
+    
+    -fx-font-size: 15px;
+    -fx-text-fill: rgb(132, 194, 37);
+    -fx-font-weight: bold;
+    
+}
+
+#operationTitle{
+     -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
